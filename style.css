@@ -1,0 +1,65 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #3b0c16; /* Deep Maroon */
+    color: #fff;
+    overflow-x: hidden; /* Prevents horizontal scrolling */
+}
+
+/* Header */
+header {
+    background-color: #5a1a22; /* Darker Maroon */
+    padding: 20px;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    color: #f8b400; /* Warm contrast */
+}
+
+/* Navigation */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #f8b400;
+    text-decoration: none;
+}
+
+/* Sections */
+section {
+    padding: 20px;
+    text-align: center;
+    max-width: 90%;
+    margin: auto;
+}
+
+/* Project Section */
+#projects {
+    background-color: #4d101b; /* Rich Maroon */
+    padding: 30px 20px;
+    border-radius: 10px;
+}
+
+.project-step {
+    margin: 20px auto;
+    max-width: 100%; /* Ensures the section adapts to screen size */
+    text-align: center;
+    background-color: #600d1a; /* Slightly darker maroon */
+    padding: 15px;
+    border-radius: 10px;
+}
+
+/* Responsive Images */
+.project-step img {
+    width: 100%;  /* Makes sure images don't overflow */
+    max-width: 600px
